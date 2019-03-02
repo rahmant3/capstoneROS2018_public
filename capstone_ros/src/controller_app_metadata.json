@@ -1,0 +1,128 @@
+{
+    "_comments": "Contains metadata for the capstone controller application.",
+    "url": "http://capstonewebservice-test.us-west-2.elasticbeanstalk.com/api/vehicle",
+    "vehicle_id": 5,
+    "api_key": "asdf",
+    "params": [
+        {
+            "key": "Active PCodes",
+            "ros_path": "active_pcodes",
+            "ros_type": "String",
+            "id": 0,
+            "param_type": "string",
+            "units": ""
+        },
+        {
+            "key": "Speed",
+            "ros_path": "vehicle_speed",
+            "ros_type": "Float64",
+            "id": 1,
+            "param_type": "double",
+            "units": "kph"
+        },
+        {
+            "key": "Low Battery",
+            "ros_path": "low_batt",
+            "ros_type": "Bool",
+            "id": 2,
+            "param_type": "bool",
+            "units": ""
+        },
+        {
+            "key": "High Battery",
+            "ros_path": "high_batt",
+            "ros_type": "Bool",
+            "id": 3,
+            "param_type": "bool",
+            "units": ""
+        },
+        {
+            "key": "Low Oil",
+            "ros_path": "low_oil",
+            "ros_type": "Bool",
+            "id": 4,
+            "param_type": "bool",
+            "units": ""
+        },
+        {
+            "key": "Air Pressure Sensor Fault",
+            "ros_path": "aps_fault",
+            "ros_type": "Bool",
+            "id": 5,
+            "param_type": "bool",
+            "units": ""
+        },
+        {
+            "key": "Air Temperature Sensor Fault",
+            "ros_path": "ats_fault",
+            "ros_type": "Bool",
+            "id": 6,
+            "param_type": "bool",
+            "units": ""
+        },
+        {
+            "key": "Engine Temperature Sensor Fault",
+            "ros_path": "ets_fault",
+            "ros_type": "Bool",
+            "id": 7,
+            "param_type": "bool",
+            "units": ""
+        },
+        {
+            "key": "Throttle Position Sensor Fault",
+            "ros_path": "tps_fault",
+            "ros_type": "Bool",
+            "id": 8,
+            "param_type": "bool",
+            "units": ""
+        },
+        {
+            "key": "Fuel Pump Fault",
+            "ros_path": "fuel_pump_fault",
+            "ros_type": "Bool",
+            "id": 9,
+            "param_type": "bool",
+            "units": ""
+        },
+        {
+            "key": "Injector Fault",
+            "ros_path": "injector_fault",
+            "ros_type": "Bool",
+            "id": 10,
+            "param_type": "bool",
+            "units": ""
+        },
+        {
+            "key": "Engine Fan Fault",
+            "ros_path": "engine_fan_fault",
+            "ros_type": "Bool",
+            "id": 11,
+            "param_type": "bool",
+            "units": ""
+        },
+        {
+            "key": "ECM Fault",
+            "ros_path": "ecm_fault",
+            "ros_type": "Bool",
+            "id": 12,
+            "param_type": "bool",
+            "units": ""
+        },
+        {
+            "key": "CAN Fault",
+            "ros_path": "can_fault",
+            "ros_type": "Bool",
+            "id": 13,
+            "param_type": "bool",
+            "units": ""
+        },
+        {
+            "key": "Fault Active",
+            "ros_path": "other_fault",
+            "ros_type": "Bool",
+            "id": 14,
+            "param_type": "bool",
+            "units": ""
+        }
+    ]
+}
